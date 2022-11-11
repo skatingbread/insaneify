@@ -4,9 +4,9 @@
     "version": "1.0",
   
     "description": "Adds a browser action icon to the toolbar. Click the button to choose an insaneification. The active tab's body content is then insanified.",
-    "homepage_url": "https://github.com/mdn/webextensions-examples/tree/master/beastify",
+    "homepage_url": "https://github.com/skatingbread/insaneify",
     "icons": {
-      "48": "icons/random.png"
+      "48": "icons/cyclone-48.png"
     },
   
     "permissions": [
@@ -14,15 +14,13 @@
     ],
   
     "browser_action": {
-      "default_icon": "icons/beasts-32.png",
+      "default_icon": "icons/cyclone-96.png",
       "default_title": "insaneify",
-      "default_popup": "popup/choose_insaneification.html"
+      "default_popup": "popup/choose_insane.html"
     },
   
     "web_accessible_resources": [
-      "beasts/frog.jpg",
-      "beasts/turtle.jpg",
-      "beasts/snake.jpg"
+      "icons/spiral_icon.svg"
     ]
   }
   
