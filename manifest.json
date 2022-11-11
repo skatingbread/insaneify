@@ -1,0 +1,28 @@
+{
+    "manifest_version": 2,
+    "name": "insaneificate",
+    "version": "1.0",
+  
+    "description": "Adds a browser action icon to the toolbar. Click the button to choose an insaneification. The active tab's body content is then insanified.",
+    "homepage_url": "https://github.com/mdn/webextensions-examples/tree/master/beastify",
+    "icons": {
+      "48": "icons/random.png"
+    },
+  
+    "permissions": [
+      "activeTab"
+    ],
+  
+    "browser_action": {
+      "default_icon": "icons/beasts-32.png",
+      "default_title": "insaneify",
+      "default_popup": "popup/choose_insaneification.html"
+    },
+  
+    "web_accessible_resources": [
+      "beasts/frog.jpg",
+      "beasts/turtle.jpg",
+      "beasts/snake.jpg"
+    ]
+  }
+  
