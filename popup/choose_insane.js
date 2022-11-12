@@ -15,13 +15,13 @@ document.addEventListener("click", (e) => {
 /**
 * Given the name of a beast, get the URL to the corresponding image.
 */
-function beastNameToURL(beastName) {
-switch (beastName) {
-case "Frog":
+function beastNameToURL(insaneName) {
+switch (insaneName) {
+case "Spin":
 return browser.runtime.getURL("beasts/frog.jpg");
-case "Snake":
+case "Bounce":
 return browser.runtime.getURL("beasts/snake.jpg");
-case "Turtle":
+case "Kill":
 return browser.runtime.getURL("beasts/turtle.jpg");
 }
 }
